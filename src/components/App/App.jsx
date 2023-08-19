@@ -1,12 +1,15 @@
 import { Sidebar } from '../Sidebar';
+import { Dashboard } from '../Dashboard';
+import { Main } from '../UI/Main';
 import st from './App.module.scss';
-import Dashboard from '../Dashboard/Dashboard';
 
 export const App = () => {
 	return (
 		<div className={st.App}>
 			<Sidebar></Sidebar>
-			<Dashboard />
+			<Main>
+				<Dashboard />
+			</Main>
 		</div>
 	);
 };
