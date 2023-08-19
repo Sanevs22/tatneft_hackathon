@@ -1,13 +1,18 @@
-import { useState } from 'react';
-import st from './Toggle.scss';
+import st from './Toggle.module.scss';
 
-function Toggle() {
+function Toggle({ state, onClick }) {
 	return (
 		<>
-	Toggle
-	<div className={st.toggle_body}> 
-
-	</div>
+			<div className={state ? st.on : st.off}>
+				<div className={st.toggle_body}>
+					<div
+						className={st.toggle_r}
+						onClick={() => {
+							onClick(!state);
+						}}
+					></div>
+				</div>
+			</div>
 		</>
 	);
 }

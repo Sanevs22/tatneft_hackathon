@@ -1,19 +1,14 @@
-import { useState } from 'react';
-import st from './App.scss?inline';
+import st from './App.module.scss';
 import Toggle from '../UI/Toggle/Toggle';
+import { useState } from 'react';
 
 function App() {
+	const [toggle, setToggle] = useState(true);
+
 	return (
-		<>
-			<h1>Vite + React</h1>
-			<Toggle></Toggle>
-			<div className="card">
-				<p>
-					Edit <code>src/App.jsx</code> and save to test HMR
-				</p>
-			</div>
-			<p className="read-the-docs">Click on the Vite and React logos to learn more</p>
-		</>
+		<div className={st.App}>
+			<Toggle state={toggle} onClick={setToggle}></Toggle>
+		</div>
 	);
 }
 
