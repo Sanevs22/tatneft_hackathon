@@ -1,10 +1,12 @@
 import { useState } from 'react';
-import st from './App.scss';
+import st from './App.scss?inline';
+import Toggle from '../UI/Toggle/Toggle';
 
 function App() {
 	return (
 		<>
 			<h1>Vite + React</h1>
+			<Toggle></Toggle>
 			<div className="card">
 				<p>
 					Edit <code>src/App.jsx</code> and save to test HMR
