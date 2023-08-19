@@ -1,4 +1,4 @@
-import st from './Sidebar.scss';
+import st from './Sidebar.module.scss';
 
 export const Sidebar = () => {
 	return (
