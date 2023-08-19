@@ -1,0 +1,9 @@
+.sidebar {
+	width: 540px;
+	height: 100vh;
+	flex-shrink: 0;
+	border-radius: 16px;
+	background: var(--white);
+	overflow: scroll;
+	padding: 20px;
+}

@@ -13,7 +13,7 @@ html {
 
 body {
 	background: #f4f4f5;
-	font-family: 'SB Sans Interface';
+	font-family: 'Poppins', Arial, sans-serif;
 	min-height: 100vh;
 }
 
@@ -45,6 +45,7 @@ a {
 	--main: #4fd1c5;
 	--black: #101010;
 	--font-color: #616c7b;
+	--white: #fff;
 }
 
 @media (prefers-color-scheme: light) {
