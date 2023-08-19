@@ -1,0 +1,41 @@
+.toggle_body {
+	box-sizing: border-box;
+	width: 36px;
+	height: 20px;
+	border-radius: 97.74px;
+	position: relative;
+	padding: 2.5px;
+	transition: transform ease 400ms;
+}
+
+.toggle_body:hover {
+	transform: scale(1.02);
+}
+
+.toggle_r {
+	width: 14px;
+	height: 14px;
+	border-radius: 20px;
+	background-color: #fff;
+	position: absolute;
+	transition: all ease 400ms;
+}
+
+.on {
+	.toggle_body {
+		background: #4fd1c5;
+	}
+
+	.toggle_r {
+		left: 19px;
+	}
+}
+
+.off {
+	.toggle_body {
+		background: #1f1a24;
+	}
+	.toggle_r {
+		left: 2.5px;
+	}
+}
