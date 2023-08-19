@@ -1,11 +1,10 @@
-import st from './App.scss';
+import { Sidebar } from '../Sidebar';
+import st from './App.module.scss';
 
-function App() {
+export const App = () => {
 	return (
 		<div className={st.App}>
-			<></>
+			<Sidebar></Sidebar>
 		</div>
 	);
-}
-
-export default App;
+};
