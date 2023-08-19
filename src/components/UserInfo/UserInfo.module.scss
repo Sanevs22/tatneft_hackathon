@@ -11,9 +11,11 @@
 	display: flex;
 	justify-content: flex-start;
 	flex-direction: column;
-	color: var(--white);
 	font-size: 32px;
 	font-style: normal;
 	font-weight: 700;
 	line-height: 140%; /* 44.8px */
+	span {
+		color: var(--white);
+	}
 }

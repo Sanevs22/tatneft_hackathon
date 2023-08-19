@@ -1,3 +1,22 @@
+:root {
+	font-family: 'Poppins', Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+	color-scheme: light dark;
+	background-color: #242424;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+
+	/* css variables */
+	--main: #4fd1c5;
+	--black: #101010;
+	--font-color: #616c7b;
+	--white: #fff;
+}
+
 *,
 *::before,
 *::after {
@@ -5,6 +24,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	font: inherit;
+	color: var(--font-color);
 }
 
 html {
@@ -27,25 +47,6 @@ svg {
 
 a {
 	text-decoration: none;
-}
-
-:root {
-	font-family: 'Poppins', Arial, sans-serif;
-	line-height: 1.5;
-	font-weight: 400;
-	color-scheme: light dark;
-	background-color: #242424;
-	font-synthesis: none;
-	text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-text-size-adjust: 100%;
-
-	/* css variables */
-	--main: #4fd1c5;
-	--black: #101010;
-	--font-color: #616c7b;
-	--white: #fff;
 }
 
 @media (prefers-color-scheme: light) {
