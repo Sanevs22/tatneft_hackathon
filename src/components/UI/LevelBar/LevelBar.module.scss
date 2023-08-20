@@ -27,11 +27,11 @@
 	position: absolute;
 	left: 16px;
 	top: 62px;
-	z-index: 10;
+	z-index: 3;
 }
 
 .level {
-	z-index: 5;
+	z-index: 2;
 	position: absolute;
 	top: 0;
 	width: 63px;
@@ -60,6 +60,7 @@
 	width: 62px;
 	top: 19px;
 	height: 152px;
+	z-index: 5;
 	.line {
 		height: 6px;
 		border-radius: 20px;
@@ -68,7 +69,6 @@
 		position: absolute;
 		left: -5px;
 		bottom: 0;
-		z-index: 200;
 	}
 
 	.max_text {
@@ -77,7 +77,6 @@
 		position: absolute;
 		left: 70px;
 		bottom: 0;
-		z-index: 200;
 	}
 }
 
