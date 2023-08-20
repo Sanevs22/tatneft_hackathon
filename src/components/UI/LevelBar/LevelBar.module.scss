@@ -2,6 +2,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	position: relative;
 }
 
 .title {
@@ -52,6 +53,30 @@
 .r {
 	background: #d1664f;
 }
+
+
+.max {
+	.line {
+		height: 6px;
+		border-radius: 20px;
+		width: 100px;
+		background-color: #d1664f;
+		position: absolute;
+		left: 10px;
+		bottom: 0;
+		z-index: 200;
+	}
+
+	.max_text {
+		height: 6px;
+		border-radius: 20px;
+		position: absolute;
+		left: 115px;
+		bottom: 0;
+    z-index: 200;
+  }
+}
+
 
 @keyframes level {
 	0% {

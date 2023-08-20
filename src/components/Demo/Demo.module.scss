@@ -1,0 +1,92 @@
+.main {
+	padding: 20px;
+}
+
+.timer {
+	box-sizing: border-box;
+	padding: 20px;
+	width: 300px;
+	height: 100px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 16px;
+}
+
+.demo_contaner {
+	position: relative;
+	padding: 20px;
+	width: 750px;
+	height: 600px;
+	background-color: rgb(255, 255, 255);
+	margin: 20px auto;
+	box-shadow: 0px 8.226701736450195px 8.226701736450195px 0px rgba(0, 0, 0, 0.25);
+}
+
+.skw {
+	display: flex;
+	width: 171px;
+	padding: 16px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 16px;
+	border-radius: 12px;
+	background: #f7f7f7;
+}
+
+.skw1 {
+	position: absolute;
+	left: 20px;
+	top: 85px;
+}
+
+.skw2 {
+	position: absolute;
+	left: 20px;
+	top: 245px;
+}
+
+.skw3 {
+	position: absolute;
+	left: 20px;
+	top: 425px;
+}
+
+.pipe {
+	position: absolute;
+	left: 500px;
+	top: 225px;
+}
+
+.skw_info {
+	position: absolute;
+	padding: 8px 14px;
+	border-radius: 10px;
+	top: -22px;
+	left: 45px;
+	transition: all ease 1000ms;
+	width: 180px;
+}
+
+.emk1 {
+	position: absolute;
+	left: 300px;
+	top: 20px;
+}
+
+.emk2 {
+	position: absolute;
+	left: 300px;
+	top: 190px;
+}
+
+.emk3 {
+	position: absolute;
+	left: 300px;
+	top: 360px;
+}
+
+.top_flex {
+	display: flex;
+	gap: 30px;
+	align-items: center;
+}
