@@ -5,7 +5,7 @@
 .timer {
 	box-sizing: border-box;
 	padding: 20px;
-	width: 200px;
+	width: 300px;
 	height: 100px;
 	background-color: rgb(255, 255, 255);
 	border-radius: 16px;
@@ -14,7 +14,7 @@
 .demo_contaner {
 	position: relative;
 	padding: 20px;
-	width: 700px;
+	width: 750px;
 	height: 600px;
 	background-color: rgb(255, 255, 255);
 	margin: 20px auto;
@@ -69,18 +69,24 @@
 
 .emk1 {
 	position: absolute;
-	left: 200px;
+	left: 300px;
 	top: 20px;
 }
 
 .emk2 {
 	position: absolute;
-	left: 200px;
+	left: 300px;
 	top: 190px;
 }
 
 .emk3 {
 	position: absolute;
-	left: 200px;
+	left: 300px;
 	top: 360px;
+}
+
+.top_flex {
+	display: flex;
+	gap: 30px;
+	align-items: center;
 }

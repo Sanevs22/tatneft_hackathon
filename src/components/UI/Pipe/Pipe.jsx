@@ -15,7 +15,7 @@ function Pipe({ title, status }) {
 		<div className={st.main}>
 			<div className={st.title}> {title}</div>
 			<div className={st.status}>
-				<div className={st.text}>{Math.round(status)}%</div>
+				<div className={st.text}>{Math.round(status) > 0 ? Math.round(status) : 0}%</div>
 				<div className={st.level + ' ' + color} style={{ right: `${level}px` }}></div>
 			</div>
 		</div>
