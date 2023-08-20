@@ -4,7 +4,7 @@ import img_1 from '../../accets/img_1.png';
 import Toggle from '../UI/Toggle/Toggle';
 import { useState } from 'react';
 
-function Dns({ status, max }) {
+function Dns({ status, max, number }) {
 	let [state, setState] = useState(false);
 	let [open, setOpen] = useState(false);
 
@@ -20,7 +20,7 @@ function Dns({ status, max }) {
 					>
 						<div className={st.flex}>
 							<div>
-								<div className={st.title}>ДНС 3</div>
+								<div className={st.title}>ДНС {number}</div>
 								<img src={img_1} alt='title img' />
 							</div>
 							<LevelBar className={st.level} title={'Объем'} status={status} max={max} />
@@ -45,9 +45,8 @@ function Dns({ status, max }) {
 						>
 							<div className={st.flex}>
 								<img src={img_1} alt='title img' />
-
 								<div>
-									<div className={st.title}>ДНС 3</div>
+									<div className={st.title}>ДНС {number}</div>
 									<div>Информация об объекте контакты оперативного персонала</div>
 								</div>
 							</div>
@@ -57,7 +56,7 @@ function Dns({ status, max }) {
 							</div>
 							<div className={st.tools_flex}>
 								<div>Входной контур</div>
-								<LevelBar className={st.level} title={'Объем'} status={40} />
+								<LevelBar className={st.level} title={'Объем'} status={status} max={max} />
 								<div>Выходной контур</div>
 							</div>
 						</div>
