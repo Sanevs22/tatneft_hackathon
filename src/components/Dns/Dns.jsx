@@ -4,7 +4,7 @@ import img_1 from '../../accets/img_1.png';
 import Toggle from '../UI/Toggle/Toggle';
 import { useState } from 'react';
 
-function Dns() {
+function Dns({ status, max }) {
 	let [state, setState] = useState(false);
 	let [open, setOpen] = useState(false);
 
@@ -23,7 +23,7 @@ function Dns() {
 								<div className={st.title}>ДНС 3</div>
 								<img src={img_1} alt='title img' />
 							</div>
-							<LevelBar className={st.level} title={'Объем'} status={40} />
+							<LevelBar className={st.level} title={'Объем'} status={status} max={max} />
 						</div>
 						<div className={st.tools}>
 							<Toggle state={state} onClick={setState}></Toggle>
