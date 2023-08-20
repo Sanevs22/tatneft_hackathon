@@ -20,8 +20,8 @@ function LevelBar({ title, status, max }) {
 				<div className={st.level + ' ' + color} style={{ top: `${level}px` }}></div>
 			</div>
 			<div className={st.max}>
-				<div className={st.line} style={{ top: `${maxLevel + 14}px` }}></div>
-				<div className={st.max_text} style={{ top: `${maxLevel + 5}px` }}>
+				<div className={st.line} style={{ top: `${maxLevel - 4}px` }}></div>
+				<div className={st.max_text} style={{ top: `${maxLevel - 12}px` }}>
 					{max}%
 				</div>
 			</div>
