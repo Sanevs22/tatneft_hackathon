@@ -7,25 +7,25 @@
 .title {
 	color: #616c7b;
 	text-align: center;
-	font-size: 12px;
+	font-size: 20px;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 600;
 	line-height: 150%; /* 18px */
 }
 
 .status {
-	width: 62.5px;
-	height: 152px;
+	height: 70px;
+	width: 200px;
 	border-radius: 7.5px;
 	background: #f7f7f7;
-	overflow: hidden;
 	position: relative;
+	overflow: hidden;
 }
 
 .text {
 	position: absolute;
-	left: 16px;
-	top: 62px;
+	left: 90px;
+	top: 22px;
 	z-index: 10;
 }
 
@@ -33,12 +33,11 @@
 	z-index: 5;
 	position: absolute;
 	top: 0;
-	width: 63px;
-	height: 152px;
-	flex-shrink: 0;
-	border-radius: 0px 0px 7.153px 7.153px;
+	right: 0;
+	height: 70px;
+	width: 200px;
 	background: #4f73d1;
-	transition: top ease 500ms;
+	transition: right ease 500ms;
 }
 
 .b {
