@@ -1,8 +1,19 @@
-# React + Vite
+# Конкурсная работа хакатона «ТехШторм» 2023 ТатНефть
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+_Команда Brent_
 
-Currently, two official plugins are available:
+### Итоги участия: 2 место.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Задание:
+
+«Разработка системы управления потоком транспортируемой жидкости, обеспечивающей равномерное поступление на конечный объект»
+
+_Текст задания, а так же материалы по проекту в директории /case_
+
+### Решение:
+
+Разработка програмного решения в основе которого лежит алгорит насыщения направленного графа (сети),
+
+### Стек
+
+React + Vite + firebase
